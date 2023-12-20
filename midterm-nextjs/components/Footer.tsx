@@ -16,6 +16,23 @@ const Footer = () => {
           © 2023 Mahum Abid<a href="/" className="hover:underline"></a>
         </div>
         </div>
+        <div className="flex flex-row items-center justify-center space-x-2 mb-1">
+            <AiOutlineGithub
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+          <a
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineTwitter
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+          </div>
+        
 
     </footer>
   )
