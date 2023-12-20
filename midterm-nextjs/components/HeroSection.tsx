@@ -21,7 +21,7 @@ const HeroSection = () => {
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Mahum!</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
-            <span className="font-semibold text-black-600">
+            <span className="font-semibold text-teal-600">
               Data Analyst{" "}
             </span>
             based in Jersey City, NJ. Working towards analyzing data that
