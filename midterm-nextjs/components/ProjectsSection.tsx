@@ -41,13 +41,15 @@ const ProjectsSection = () => {
             <SlideUp offset="-300px 0px -300px 0px">
               <div className="flex flex-col animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                 <div className="md:w-1/2">
-                  <Image
-                    src={project.image}
-                    alt=""
-                    width={1000}
-                    height={1000}
-                    className="rounded-xl shadow-xl hover:opacity-70"
-                  />
+                  <a href={project.github} target="_blank" rel="noopener noreferrer">
+                    <Image
+                      src={project.image}
+                      alt=""
+                      width={1000}
+                      height={1000}
+                      className="rounded-xl shadow-xl hover:opacity-70 cursor-pointer"
+                    />
+                  </a>
                 </div>
                 <div className="mt-8 md:w-1/2">
                   <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
