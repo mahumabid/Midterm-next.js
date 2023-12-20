@@ -8,18 +8,18 @@ const projects = [
       name: "Price Prediction ML",
       description:
         "Streamlit app SuperDuper which offers users the chance to dupe their favorite high-end products and find cheaper alternatives that are at the ingredient-level similar..",
-      image: "/a.png",
+      image: "/skincare.jpg",
     },
     {
       name: "Microsoft's VS",
       description: "Generated a Recommendation System with Hybrid Approach for Improved Accuracy in Predicting User Preferences in Video Content for Microsoft.",
-      image: "/b.png",
+      image: "/microsoft.jpg",
     },
     {
       name: "H1N1 2009 Vaccination Campaign",
       description:
         "Built a model that can use the patient demographics data, collected following the 2009 H1N1 virus outbreak to predict which patients are likely to get the vaccine.",
-      image: "/c.png",
+      image: "/hv.jpg",
     },
   ]
   
