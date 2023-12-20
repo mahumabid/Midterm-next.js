@@ -28,6 +28,11 @@ const NAV_ITEMS: Array<NavItem> = [
 ]
 
 const Navbar = () => {
+  const { systemTheme, theme, setTheme } = useTheme()
+  const currentTheme = theme === "system" ? systemTheme : theme
+ 
+ 
+ 
   return (
     <div>Navbar</div>
   )
