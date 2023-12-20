@@ -26,7 +26,6 @@ const NAV_ITEMS: Array<NavItem> = [
     page: "projects",
   },
 ]
-
 export default function Navbar() {
   const { systemTheme, theme, setTheme } = useTheme()
   const currentTheme = theme === "system" ? systemTheme : theme
@@ -39,7 +38,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <Link to="home">
               <div className="container flex items-center space-x-2">
-                <h2 className="text-2xl font-bold">Mahum Abid</h2>
+                <h2 className="text-2xl font-bold">Hosna Qasmei</h2>
               </div>
             </Link>
             <div className="md:hidden">
@@ -79,6 +78,21 @@ export default function Navbar() {
                   </Link>
                 )
               })}
+              {currentTheme === "dark" ? (
+                <button
+                  onClick={() => setTheme("light")}
+                  className="bg-slate-100 p-2 rounded-xl"
+                >
+                  <RiSunLine size={25} color="black" />
+                </button>
+              ) : (
+                <button
+                  onClick={() => setTheme("dark")}
+                  className="bg-slate-100 p-2 rounded-xl"
+                >
+                  <RiMoonFill size={25} />
+                </button>
+              )}
             </div>
           </div>
         </div>
@@ -86,7 +100,3 @@ export default function Navbar() {
     </header>
   )
 }
-
-
-
-
