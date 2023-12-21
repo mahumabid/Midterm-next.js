@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { BsGithub } from 'react-icons/bs';
-import SlideUp from './SlideUp';
+
 
 const projects = [
   {
@@ -38,8 +38,8 @@ const ProjectsSection = () => {
       <div className="flex flex-col space-y-28">
         {projects.map((project, idx) => (
           <div key={idx}>
-            <SlideUp offset="-300px 0px -300px 0px">
-              <div className="flex flex-col animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
+            
+              <div className="flex flex-col  md:flex-row md:space-x-12">
                 <div className="md:w-1/2">
                   <Image
                     src={project.image}
@@ -61,7 +61,7 @@ const ProjectsSection = () => {
                   </div>
                 </div>
               </div>
-            </SlideUp>
+          
           </div>
         ))}
       </div>
