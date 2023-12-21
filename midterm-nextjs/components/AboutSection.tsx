@@ -39,7 +39,7 @@ const skills = [
               <br />
               <p>
                 I graduated from Rutgers University, New Brunswick in 2022
-                with a MS in Computer Engineering and have been working in the
+                with a MS in Data Science and have been working in the
                 field ever since.
               </p>
               <br />
